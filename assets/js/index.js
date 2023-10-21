@@ -21,7 +21,7 @@ function drawSurveys(surveys) {
       const { code } = survey;
 
       HTML += /*html*/ `
-          <div class="col-12 col-lg-4" data-code="xx1">
+          <div class="col-12 col-lg-4 mb-3" data-code="xx1">
               <div class="card">
                   <div class="card-body text-center">
                       <h4 class="card-title">${code}</h4>
